@@ -25,7 +25,7 @@ Ranked by priority. Six more are pinned below (ranks 7 to 12); nothing is listed
 | 3 | [multi-agent-rl-mapf-drone-navigation](https://github.com/jameswniu/multi-agent-rl-mapf-drone-navigation) | Real-time multi-agent drone flight: PPO reinforcement learning for pathfinding and coordination, served behind a FastAPI backend |
 | 4 | [nlp-clinical-trial-eligibility-screening](https://github.com/jameswniu/nlp-clinical-trial-eligibility-screening) | Patient-vs-protocol eligibility screening over structured data and clinical notes: semantic analysis, confidence scoring, Dockerized deployment |
 | 5 | [self-hosted-llm-evals-lab](https://github.com/jameswniu/self-hosted-llm-evals-lab) | Systematic prompt ablation on self-hosted Llama via lm-evaluation-harness: baseline vs CoT vs few-shot vs self-consistency, with Wilson confidence intervals |
-| 6 | [multi-agent-intent-routing-chatbot-assistant](https://github.com/jameswniu/multi-agent-intent-routing-chatbot-assistant) | Production chat architecture end to end: intent detection, dynamic routing, document retrieval, SQL generation, observability, guardrails |
+| 6 | [multi-agent-intent-routing-chatbot-assistant](https://github.com/jameswniu/multi-agent-intent-routing-chatbot-assistant) | Lets service teams question docs and a contract database in plain English: FAISS retrieval plus natural-language-to-SQL with 100% query validation, PII and prompt-injection guardrails, staged from deterministic pilot to RAG production |
 
 ## Principles I work by
 
