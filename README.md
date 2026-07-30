@@ -5,33 +5,27 @@
 Working software with receipts: every project below runs, and the claims in each README are
 backed by evals, probes, or logged runs rather than vibes.
 
-## What I build
-
-- **Multi-agent systems** on current protocols (agent-to-agent messaging, MCP tool services),
-  with the orchestration, streaming, and failure handling that make them production-shaped.
-- **Eval harnesses that gate real pipelines**: taste captured as labels, compiled into
-  thresholds, enforced by guards that block bad output before it spends money.
-- **GenAI with a paper trail**: cited research, versioned artifacts, measured latency and
-  cost, honest limitations sections.
-
-## Featured: AI filmmaking with multimodal evals
+## 1. Featured: AI filmmaking governed by multimodal evals
 
 **[3d-filmmaking-ads-multimodal-evals](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals)**
 
 An AI filmmaking pipeline for advertising-grade avatar video: multimodal evals govern a
 cloned voice, a consistent generated character, and light-field 3D output. Taste is
-captured as labels, compiled into thresholds, and enforced by gates. 12 probes, 4 guards,
-measured costs, and the measurements that falsified my own claims.
+captured as labels, compiled into thresholds, and enforced by gates that block bad output
+before it spends money. 12 probes, 4 guards, measured vendor costs, and the measurements
+that falsified my own claims.
 
-## More work
+## 2 to 6: Production AI on real problems
 
-| Project | What it proves |
-| --- | --- |
-| [multi-agent-rl-mapf-drone-navigation](https://github.com/jameswniu/multi-agent-rl-mapf-drone-navigation) | Real-time multi-agent reinforcement learning for safe, adaptive drone flight |
-| [research_doc_extraction_rag_agent](https://github.com/jameswniu/research_doc_extraction_rag_agent) | Dual-model RAG pipeline that turns messy survey responses into clean research insights |
-| [multi-agent-intent-routing-chatbot-assistant](https://github.com/jameswniu/multi-agent-intent-routing-chatbot-assistant) | Intent routing across specialized agents in a production-shaped chat assistant |
-| [self-hosted-llm-evals-lab](https://github.com/jameswniu/self-hosted-llm-evals-lab) | Self-hosted eval infrastructure: judge models, scoring, and regression tracking |
-| [claude-code-new-king-james](https://github.com/jameswniu/claude-code-new-king-james) | A production agent runtime, documented as both Python implementation and prose |
+Ranked by priority. Six more are pinned below (ranks 7 to 12); nothing is listed twice.
+
+| # | Project | What it proves |
+| --- | --- | --- |
+| 2 | [research_doc_extraction_rag_agent](https://github.com/jameswniu/research_doc_extraction_rag_agent) | Dual-model production pipeline that turns messy survey responses into clean research insights: Claude Opus extracts themes and assigns participants, GPT writes executive summaries, temperatures tuned per stage |
+| 3 | [multi-agent-rl-mapf-drone-navigation](https://github.com/jameswniu/multi-agent-rl-mapf-drone-navigation) | Real-time multi-agent drone flight: PPO reinforcement learning for pathfinding and coordination, served behind a FastAPI backend |
+| 4 | [nlp-clinical-trial-eligibility-screening](https://github.com/jameswniu/nlp-clinical-trial-eligibility-screening) | Patient-vs-protocol eligibility screening over structured data and clinical notes: semantic analysis, confidence scoring, Dockerized deployment |
+| 5 | [self-hosted-llm-evals-lab](https://github.com/jameswniu/self-hosted-llm-evals-lab) | Systematic prompt ablation on self-hosted Llama via lm-evaluation-harness: baseline vs CoT vs few-shot vs self-consistency, with Wilson confidence intervals |
+| 6 | [multi-agent-intent-routing-chatbot-assistant](https://github.com/jameswniu/multi-agent-intent-routing-chatbot-assistant) | Production chat architecture end to end: intent detection, dynamic routing, document retrieval, SQL generation, observability, guardrails |
 
 ## Principles I work by
 
