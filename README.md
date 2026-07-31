@@ -15,9 +15,9 @@ captured as labels, compiled into thresholds, and enforced by gates that block b
 before it spends money. 13 probes, 4 guards, measured vendor costs, and the measurements
 that falsified my own claims.
 
-## 2 to 6: Production AI on real problems
+## 2 to 9: Production AI on real problems
 
-Ranked by priority. The pinned row below shows six at a glance.
+Ranked by priority. Every project here runs; the pinned row above repeats the strongest six.
 
 | # | Project | What it proves |
 | --- | --- | --- |
@@ -26,6 +26,9 @@ Ranked by priority. The pinned row below shows six at a glance.
 | 4 | [nlp-clinical-trial-eligibility-screening](https://github.com/jameswniu/nlp-clinical-trial-eligibility-screening) | Patient-vs-protocol eligibility screening over structured data and clinical notes: semantic analysis, confidence scoring, Dockerized deployment |
 | 5 | [self-hosted-llm-evals-lab](https://github.com/jameswniu/self-hosted-llm-evals-lab) | Systematic prompt ablation on self-hosted Llama via lm-evaluation-harness: baseline vs CoT vs few-shot vs self-consistency, with Wilson confidence intervals |
 | 6 | [vector-rerank-candidate-search-pipeline](https://github.com/jameswniu/vector-rerank-candidate-search-pipeline) | Three-stage candidate search over a vector database: Voyage-3 retrieval, hard-criteria filtering, then GPT-4o-mini reranking |
+| 7 | [questions-to-sql-intent-router](https://github.com/jameswniu/questions-to-sql-intent-router) | Plain-English questions routed to document retrieval or to SQL generated from the question and validated before it runs: 100 percent query validation, PII and prompt-injection guardrails |
+| 8 | [claude-code-in-python-and-prose](https://github.com/jameswniu/claude-code-in-python-and-prose) | Architecture study of an agentic coding CLI, told twice: thirty-four prose chapters on the query loop, tool registry, hooks, sandboxing, and MCP, plus the same shapes expressed in Python |
+| 9 | [meta-pixel-cookie-tracking-explorer](https://github.com/jameswniu/meta-pixel-cookie-tracking-explorer) | Interactive four-panel visualization of how Meta's tracking pixel and cookie ecosystem actually works, with a live demo you can click through |
 ## Principles I work by
 
 1. **Chat output is not evidence.** The database write, the rendered file, and the logged
