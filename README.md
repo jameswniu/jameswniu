@@ -28,7 +28,7 @@ quietly.
 
 ## 2 to 6: Production AI on real problems
 
-Ranked by priority. The pinned row below shows six: the three strongest here, plus three not listed above.
+Ranked by priority. Five more are pinned below, one per remaining repository; nothing is listed twice.
 
 | # | Project | What it proves |
 | --- | --- | --- |
