@@ -1,6 +1,6 @@
 # James W. Niu
 
-**Sr. Staff AI/ML Engineer and Architect, 10+ years. I build multi-agent systems that ship, and I measure them before I believe them.**
+**Sr. Staff AI/ML Engineer, 10+ years. I build multi-agent systems that ship, and I measure them before I believe them.**
 
 Working software with receipts: every project below runs, and the claims in each README are
 backed by evals, probes, or logged runs rather than vibes.
