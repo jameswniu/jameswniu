@@ -5,6 +5,12 @@
 Working software with receipts: every project below runs, and the claims in each README are
 backed by evals, probes, or logged runs rather than vibes.
 
+A wrong number in a dashboard fails loudly. A generative system fails **plausibly**: a mouth
+trailing the audio by four frames, a cited statistic with nothing behind it. Those are
+invisible to a type check, obvious to a person, and different again tomorrow. So I capture
+human judgment as labels, compile it into thresholds, and wire it into gates that can refuse
+to spend.
+
 ## 1. Featured: AI filmmaking governed by multimodal evals
 
 **[3d-filmmaking-ads-multimodal-evals](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals)**
@@ -14,6 +20,11 @@ cloned voice, a consistent generated character, and light-field 3D output. Taste
 captured as labels, compiled into thresholds, and enforced by gates that block bad output
 before it spends money. 13 probes, 4 guards, measured vendor costs, and the measurements
 that falsified my own claims.
+
+It runs on a schedule, against metered vendor APIs, with nobody awake. That is the design
+constraint: an unattended pipeline cannot be corrected mid flight, so every gate fires before
+the credit is spent, and anything short of a clean success pages loudly instead of passing
+quietly.
 
 ## 2 to 6: Production AI on real problems
 
@@ -26,6 +37,21 @@ Ranked by priority. The pinned row below shows six: the three strongest here, pl
 | 4 | [questions-to-sql-intent-router](https://github.com/jameswniu/questions-to-sql-intent-router) | Plain-English questions routed to document retrieval or to SQL generated from the question and validated before it runs: 100 percent query validation, PII and prompt-injection guardrails |
 | 5 | [research_doc_extraction_rag_agent](https://github.com/jameswniu/research_doc_extraction_rag_agent) | Dual-model production pipeline that turns messy survey responses into clean research insights: Claude Opus extracts themes and assigns participants, GPT writes executive summaries, temperatures tuned per stage |
 | 6 | [claude-code-in-python-and-prose](https://github.com/jameswniu/claude-code-in-python-and-prose) | Architecture study of an agentic coding CLI, told twice: thirty-four prose chapters on the query loop, tool registry, hooks, sandboxing, and MCP, plus the same shapes expressed in Python |
+
+## Two things I learned by being wrong
+
+**A suite can score everything about a person except whether you can see her.** A generated
+presenter was matted onto black and dressed in a black top. Her face cleared the background
+by 134 levels of luma; her torso cleared it by 22, so the body dissolved and the render
+shipped a floating head. Eleven probes scored her face, her motion, and her timing. Not one
+asked whether she was visible.
+
+**Three green checkmarks over two empty files.** In a multi-agent system every step reported
+success and both artifacts persisted empty. The agent cards advertised localhost, correct on
+one machine and wrong across a container network, so discovery kept succeeding while delivery
+failed silently. The client now rebases the address and logs that it did, and every artifact
+writes its byte size.
+
 ## Principles I work by
 
 1. **Chat output is not evidence.** The database write, the rendered file, and the logged
