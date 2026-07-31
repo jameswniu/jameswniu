@@ -37,4 +37,4 @@ Ranked by priority. The pinned row below shows six at a glance.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/jameswnarch/) | [(917) 355-7504](https://wa.me/19173557504)
+[LinkedIn](https://www.linkedin.com/in/jameswnarch/) | [+1 (917) 355-7504](https://wa.me/19173557504)
