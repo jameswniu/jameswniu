@@ -25,7 +25,7 @@ Ranked by priority. The pinned row below shows six: the three strongest here, pl
 | 3 | [self-hosted-llm-evals-lab](https://github.com/jameswniu/self-hosted-llm-evals-lab) | Systematic prompt ablation on self-hosted Llama via lm-evaluation-harness: baseline vs CoT vs few-shot vs self-consistency, with Wilson confidence intervals |
 | 4 | [questions-to-sql-intent-router](https://github.com/jameswniu/questions-to-sql-intent-router) | Plain-English questions routed to document retrieval or to SQL generated from the question and validated before it runs: 100 percent query validation, PII and prompt-injection guardrails |
 | 5 | [research_doc_extraction_rag_agent](https://github.com/jameswniu/research_doc_extraction_rag_agent) | Dual-model production pipeline that turns messy survey responses into clean research insights: Claude Opus extracts themes and assigns participants, GPT writes executive summaries, temperatures tuned per stage |
-| 6 | [vector-rerank-candidate-search-pipeline](https://github.com/jameswniu/vector-rerank-candidate-search-pipeline) | Three-stage candidate search over a vector database: Voyage-3 retrieval, hard-criteria filtering, then GPT-4o-mini reranking |
+| 6 | [claude-code-in-python-and-prose](https://github.com/jameswniu/claude-code-in-python-and-prose) | Architecture study of an agentic coding CLI, told twice: thirty-four prose chapters on the query loop, tool registry, hooks, sandboxing, and MCP, plus the same shapes expressed in Python |
 ## Principles I work by
 
 1. **Chat output is not evidence.** The database write, the rendered file, and the logged
