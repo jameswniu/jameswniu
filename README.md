@@ -12,7 +12,7 @@ backed by evals, probes, or logged runs rather than vibes.
 An AI filmmaking pipeline for advertising-grade avatar video: multimodal evals govern a
 cloned voice, a consistent generated character, and light-field 3D output. Taste is
 captured as labels, compiled into thresholds, and enforced by gates that block bad output
-before it spends money. 12 probes, 4 guards, measured vendor costs, and the measurements
+before it spends money. 13 probes, 4 guards, measured vendor costs, and the measurements
 that falsified my own claims.
 
 ## 2 to 5: Production AI on real problems
