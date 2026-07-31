@@ -26,7 +26,7 @@ constraint: an unattended pipeline cannot be corrected mid flight, so every gate
 the credit is spent, and anything short of a clean success pages loudly instead of passing
 quietly.
 
-## 2 to 7: Production AI on real problems
+## 2 to 6: Production AI on real problems
 
 Ranked by priority. The pinned row below shows six: the three strongest here, plus three not listed above.
 
@@ -36,8 +36,7 @@ Ranked by priority. The pinned row below shows six: the three strongest here, pl
 | 3 | [self-hosted-llm-evals-lab](https://github.com/jameswniu/self-hosted-llm-evals-lab) | Systematic prompt ablation on self-hosted Llama via lm-evaluation-harness: baseline vs CoT vs few-shot vs self-consistency, with Wilson confidence intervals |
 | 4 | [questions-to-sql-intent-router](https://github.com/jameswniu/questions-to-sql-intent-router) | Plain-English questions routed to document retrieval or to SQL generated from the question and validated before it runs: 100 percent query validation, PII and prompt-injection guardrails |
 | 5 | [research_doc_extraction_rag_agent](https://github.com/jameswniu/research_doc_extraction_rag_agent) | Dual-model production pipeline that turns messy survey responses into clean research insights: Claude Opus extracts themes and assigns participants, GPT writes executive summaries, temperatures tuned per stage |
-| 6 | [claude-code-in-python-and-prose](https://github.com/jameswniu/claude-code-in-python-and-prose) | Architecture study of an agentic coding CLI, told twice: thirty-four prose chapters on the query loop, tool registry, hooks, sandboxing, and MCP, plus the same shapes expressed in Python |
-| 7 | [vector-rerank-filter-search-semantics](https://github.com/jameswniu/vector-rerank-filter-search-semantics) | Three-stage retrieval over a vector database: Voyage-3 embedding retrieval, hard-criteria filtering, then GPT-4o-mini reranking |
+| 6 | [onprem-bitbucket-jiraconfluence-mcp](https://github.com/jameswniu/onprem-bitbucket-jiraconfluence-mcp) | Self-hosted Bitbucket, Jira and Confluence have no official MCP server; this is that missing server: 56 token-lean tools over stdio or OAuth, with benchmarks showing where a hand-built MCP beats the official Cloud MCP and raw REST |
 
 ## Two things I learned by being wrong
 
