@@ -14,7 +14,7 @@ to spend.
 | if you want | go to |
 | --- | --- |
 | one project, read deeply | [the featured pipeline](#1-featured-ai-filmmaking-governed-by-multimodal-evals) |
-| range across problems | [the table of five](#2-to-6-production-ai-on-real-problems) |
+| range across problems | [the table of four](#2-to-5-production-ai-on-real-problems) |
 | how I work | [principles I work by](#principles-i-work-by) |
 
 ## 1. Featured: AI filmmaking governed by multimodal evals
@@ -37,7 +37,7 @@ quietly.
 the shipped render still does not pass, and a speedup whose number held while the explanation
 I wrote for it turned out to be wrong.
 
-## 2 to 6: Production AI on real problems
+## 2 to 5: Production AI on real problems
 
 Ranked by priority, one per repository, nothing listed twice.
 
@@ -45,9 +45,8 @@ Ranked by priority, one per repository, nothing listed twice.
 | --- | --- | --- |
 | 2 | [multi-agent-rl-mapf-drone-navigation](https://github.com/jameswniu/multi-agent-rl-mapf-drone-navigation) | Real-time multi-agent drone flight: PPO reinforcement learning for pathfinding and coordination, served behind a FastAPI backend |
 | 3 | [self-hosted-llm-evals-lab](https://github.com/jameswniu/self-hosted-llm-evals-lab) | Systematic prompt ablation on self-hosted Llama via lm-evaluation-harness: baseline vs CoT vs few-shot vs self-consistency, with Wilson confidence intervals |
-| 4 | [questions-to-sql-intent-router](https://github.com/jameswniu/questions-to-sql-intent-router) | Plain-English questions routed to document retrieval or to SQL generated from the question and validated before it runs: 100 percent query validation, PII and prompt-injection guardrails |
-| 5 | [research_doc_extraction_rag_agent](https://github.com/jameswniu/research_doc_extraction_rag_agent) | Dual-model production pipeline that turns messy survey responses into clean research insights: Claude Opus extracts themes and assigns participants, GPT writes executive summaries, temperatures tuned per stage |
-| 6 | [onprem-bitbucket-jiraconfluence-mcp](https://github.com/jameswniu/onprem-bitbucket-jiraconfluence-mcp) | Self-hosted Bitbucket, Jira and Confluence have no official MCP server; this is that missing server: 56 token-lean tools over stdio or OAuth, with benchmarks showing where a hand-built MCP beats the official Cloud MCP and raw REST |
+| 4 | [research_doc_extraction_rag_agent](https://github.com/jameswniu/research_doc_extraction_rag_agent) | Dual-model production pipeline that turns messy survey responses into clean research insights: Claude Opus extracts themes and assigns participants, GPT writes executive summaries, temperatures tuned per stage |
+| 5 | [onprem-bitbucket-jiraconfluence-mcp](https://github.com/jameswniu/onprem-bitbucket-jiraconfluence-mcp) | Self-hosted Bitbucket, Jira and Confluence have no official MCP server; this is that missing server: 56 token-lean tools over stdio or OAuth, with benchmarks showing where a hand-built MCP beats the official Cloud MCP and raw REST |
 
 ## Two things I learned by being wrong
 
