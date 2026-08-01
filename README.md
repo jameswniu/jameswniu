@@ -2,8 +2,8 @@
 
 **Sr. Staff AI/ML Engineer, 10+ years. I build multi-agent systems that ship, and I measure them before I believe them.**
 
-**Built work, with receipts.** Every project below runs, and the receipts that proved me
-wrong are here too.
+**Built work, with receipts.** Every project below runs, and every claim traces to an eval,
+a probe, or a logged run. The receipts that proved me wrong are here too.
 
 A wrong number in a dashboard fails loudly. A generative system fails **plausibly**: a mouth
 trailing the audio by four frames, a cited statistic with nothing behind it. Those are
