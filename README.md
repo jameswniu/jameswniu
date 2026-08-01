@@ -2,7 +2,7 @@
 
 **Sr. Staff AI/ML Engineer, 10+ years. I build multi-agent systems that ship, and I measure them before I believe them.**
 
-Working systems with receipts: every project below runs, and the claims in each README are
+Built work, with receipts: every project below runs, and the claims in each README are
 backed by evals, probes, or logged runs rather than vibes.
 
 A wrong number in a dashboard fails loudly. A generative system fails **plausibly**: a mouth
