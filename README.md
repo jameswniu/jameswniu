@@ -13,11 +13,11 @@ to spend.
 
 | if you want | go to |
 | --- | --- |
-| one project, read deeply | [the featured pipeline](#1-featured-ai-filmmaking-governed-by-multimodal-evals) |
-| range across problems | [the table of four](#2-to-5-production-ai-on-real-problems) |
+| one project, read deeply | [the featured pipeline](#featured-ai-filmmaking-governed-by-multimodal-evals) |
+| range across problems | [the table of five](#five-more-production-ai-on-real-problems) |
 | how I work | [principles I work by](#principles-i-work-by) |
 
-## 1. Featured: AI filmmaking governed by multimodal evals
+## Featured: AI filmmaking governed by multimodal evals
 
 **[3d-filmmaking-ads-multimodal-evals](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals)**
 
@@ -37,16 +37,17 @@ quietly.
 the shipped render still does not pass, and a speedup whose number held while the explanation
 I wrote for it turned out to be wrong.
 
-## 2 to 5: Production AI on real problems
+## Five more: Production AI on real problems
 
 Ranked by priority, one per repository, nothing listed twice.
 
-| # | Project | What it proves |
+| Focus | Project | What it proves |
 | --- | --- | --- |
-| 2 | [multi-agent-rl-mapf-drone-navigation](https://github.com/jameswniu/multi-agent-rl-mapf-drone-navigation) | Real-time multi-agent drone flight: PPO reinforcement learning for pathfinding and coordination, served behind a FastAPI backend |
-| 3 | [self-hosted-llm-evals-lab](https://github.com/jameswniu/self-hosted-llm-evals-lab) | Systematic prompt ablation on self-hosted Llama via lm-evaluation-harness: baseline vs CoT vs few-shot vs self-consistency, with Wilson confidence intervals |
-| 4 | [research_doc_extraction_rag_agent](https://github.com/jameswniu/research_doc_extraction_rag_agent) | Dual-model production pipeline that turns messy survey responses into clean research insights: Claude Opus extracts themes and assigns participants, GPT writes executive summaries, temperatures tuned per stage |
-| 5 | [onprem-bitbucket-jiraconfluence-mcp](https://github.com/jameswniu/onprem-bitbucket-jiraconfluence-mcp) | Self-hosted Bitbucket, Jira and Confluence have no official MCP server; this is that missing server: 56 token-lean tools over stdio or OAuth, with benchmarks showing where a hand-built MCP beats the official Cloud MCP and raw REST |
+| **Voice AI**<br>`Conversational AI` `Real-Time ASR + TTS` `Twilio PSTN` `LLM-as-Judge Evals` | [realtime-voice-agent-turn-taking-stack](https://github.com/jameswniu/realtime-voice-agent-turn-taking-stack) | A voice agent on a real phone number, where turn taking is the product: one agent across 8 kHz Twilio PSTN and a 16 kHz browser WebSocket, 16 webhook tools, and a 61 case suite where deterministic code settles about 54 of 55 grades and a model judges only what code cannot |
+| **Reinforcement Learning**<br>`Multi-Agent RL` `PPO` `PyTorch` `FastAPI` | [multi-agent-rl-mapf-drone-navigation](https://github.com/jameswniu/multi-agent-rl-mapf-drone-navigation) | Real-time multi-agent drone flight: PPO reinforcement learning for pathfinding and coordination, served behind a FastAPI backend |
+| **LLM Evaluation**<br>`Prompt Engineering` `Self-Hosted Llama` `Ablation Benchmarks` `Statistical Analysis` | [self-hosted-llm-evals-lab](https://github.com/jameswniu/self-hosted-llm-evals-lab) | Systematic prompt ablation on self-hosted Llama via lm-evaluation-harness: baseline vs CoT vs few-shot vs self-consistency, with Wilson confidence intervals |
+| **RAG Pipelines**<br>`LLM Orchestration` `Claude + GPT APIs` `NLP Extraction` `Document Processing` | [research_doc_extraction_rag_agent](https://github.com/jameswniu/research_doc_extraction_rag_agent) | Dual-model production pipeline that turns messy survey responses into clean research insights: Claude Opus extracts themes and assigns participants, GPT writes executive summaries, temperatures tuned per stage |
+| **MCP Servers**<br>`Model Context Protocol` `Tool Design` `OAuth 2.1` `Self-Hosted Atlassian` | [onprem-bitbucket-jiraconfluence-mcp](https://github.com/jameswniu/onprem-bitbucket-jiraconfluence-mcp) | Self-hosted Bitbucket, Jira and Confluence have no official MCP server; this is that missing server: 56 token-lean tools over stdio or OAuth, with benchmarks showing where a hand-built MCP beats the official Cloud MCP and raw REST |
 
 ## Two things I learned by being wrong
 
