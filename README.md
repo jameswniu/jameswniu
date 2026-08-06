@@ -72,10 +72,23 @@ writes its byte size.
 3. **Spend where the artifact is judged.** Flagship models on deliverables, fast models on
    hot paths; cost per accepted deliverable beats cost per token.
 
+## Skills
+
+- **Languages:** Python, TypeScript, Bash
+- **LLMs and agents:** Multi-agent systems, agentic AI, LangGraph, MCP (Model Context Protocol), A2A (agent-to-agent), RAG, tool design, prompt engineering
+- **Evaluation:** LLM evaluation, LLM-as-a-judge, guardrails, ablation studies, statistical analysis, regression testing
+- **Voice and speech:** Conversational AI, voice AI, real-time ASR and TTS, speech recognition, text-to-speech, Twilio, PSTN, WebSocket, voice cloning
+- **Machine learning:** Reinforcement learning, PPO, PyTorch, NLP, generative AI, computer vision, monocular depth estimation
+- **Retrieval:** Vector search, embeddings, semantic search, reranking
+- **Platform and MLOps:** MLOps, FastAPI, Docker, CI/CD, Cloudflare Workers, observability
+- **Models:** Claude (Anthropic), GPT (OpenAI), Llama
+
 ## Open to work
 
 **Sr. Staff / Principal AI engineering: agentic systems, LLM evals, and the guardrails that
 make them safe to run unattended.** San Francisco, or remote.
+
+Role titles I map to: Staff AI Engineer, Principal AI Engineer, Applied AI Engineer, Machine Learning Engineer, AI/ML Engineer, Forward Deployed Engineer (FDE).
 
 **The fastest way to evaluate me is to not take my word for it.** No accounts, no API keys,
 no GPU. Needs `python3` and `ffmpeg`:
