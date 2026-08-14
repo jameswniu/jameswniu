@@ -14,7 +14,7 @@ to spend.
 | if you want | go to |
 | --- | --- |
 | one project, read deeply | [the featured pipeline](#featured-ai-filmmaking-governed-by-multimodal-evals) |
-| range across problems | [the table of five](#five-more-production-ai-on-real-problems) |
+| range across problems | [the table of six](#six-more-production-ai-on-real-problems) |
 | how I work | [principles I work by](#principles-i-work-by) |
 
 ## Featured: AI filmmaking governed by multimodal evals
@@ -37,7 +37,7 @@ quietly.
 the shipped render still does not pass, and a speedup whose number held while the explanation
 I wrote for it turned out to be wrong.
 
-## Five more: Production AI on real problems
+## Six more: Production AI on real problems
 
 Ranked by priority, one per repository, nothing listed twice.
 
@@ -48,6 +48,7 @@ Ranked by priority, one per repository, nothing listed twice.
 | **LLM Evaluation**<br><code>Prompt&nbsp;Engineering</code> <code>Self&#8209;Hosted&nbsp;Llama</code> <code>Ablation&nbsp;Benchmarks</code> <code>Statistical&nbsp;Analysis</code> | [self-hosted-llm-evals-lab](https://github.com/jameswniu/self-hosted-llm-evals-lab) | Knowing which prompt strategy actually wins, by statistics instead of vibes | ML platform and LLM eval teams |
 | **RAG Pipelines**<br><code>LLM&nbsp;Orchestration</code> <code>Claude&nbsp;+&nbsp;GPT&nbsp;APIs</code> <code>NLP&nbsp;Extraction</code> <code>Document&nbsp;Processing</code> | [research_doc_extraction_rag_agent](https://github.com/jameswniu/research_doc_extraction_rag_agent) | Thousands of open ended survey answers nobody has time to read | Research, insights, and product teams |
 | **MCP Servers**<br><code>Model&nbsp;Context&nbsp;Protocol</code> <code>Tool&nbsp;Design</code> <code>OAuth&nbsp;2.1</code> <code>Self&#8209;Hosted&nbsp;Atlassian</code> | [onprem-bitbucket-jiraconfluence-mcp](https://github.com/jameswniu/onprem-bitbucket-jiraconfluence-mcp) | AI agents that cannot reach self-hosted Bitbucket, Jira, or Confluence | Enterprise platform and developer experience teams |
+| **Clinical NLP**<br><code>Structured&nbsp;Extraction</code> <code>Golden&#8209;Dataset&nbsp;Evals</code> <code>Semantic&nbsp;Matching</code> <code>Abstention</code> <code>Eval&#8209;Gated&nbsp;CI</code> | [nlp-clinical-trial-eligibility-screening](https://github.com/jameswniu/nlp-clinical-trial-eligibility-screening) | Screening patients against trial protocols with evidence-cited verdicts that abstain instead of guessing | Clinical research, health data, and applied NLP teams |
 
 ## Two things I learned by being wrong
 
