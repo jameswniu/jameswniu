@@ -78,12 +78,14 @@ writes its byte size.
 - **Languages:** Python, TypeScript, JavaScript, Go, SQL, Bash
 - **Full-stack & web:** React, Vite, Node.js, HTML/CSS, responsive UIs
 - **APIs, RPC & streaming:** FastAPI, REST, gRPC, JSON-RPC, WebSockets, Server-Sent Events (SSE), streaming, webhooks
-- **LLMs & agents:** Multi-agent systems, agentic AI, LangGraph, Model Context Protocol (MCP), RAG, tool design, prompt engineering
+- **LLMs & agents:** Multi-agent systems, agentic AI, LangGraph, LangChain, Model Context Protocol (MCP), tool design, prompt engineering
+- **Search, retrieval & RAG:** RAG, vector search, semantic search, hybrid search, embeddings, reranking, approximate nearest neighbor (ANN), vector databases (Turbopuffer, FAISS), relevance engineering
+- **NLP:** Structured extraction, thematic analysis, text classification, semantic matching, qualitative coding
 - **Evaluation & guardrails:** LLM-as-a-judge, eval-gated CI, guardrails, ablation studies, statistical analysis
-- **NLP & retrieval:** Structured extraction, thematic analysis, semantic search, embeddings, reranking, relevance engineering
+- **Observability & tracing:** Prometheus, Grafana, Langfuse, LangSmith, distributed tracing, structured logging, metrics, alerting
 - **Voice & speech:** Conversational AI, voice AI, ASR, TTS, Twilio, PSTN
 - **Machine learning:** Reinforcement learning, multi-agent RL, PPO, PyTorch, computer vision, generative AI
-- **Infra & MLOps:** MLOps, Docker, Kubernetes, Helm, CI/CD, observability
+- **Infra & MLOps:** MLOps, Docker, Kubernetes, Helm, CI/CD, cloud deployment
 - **Models:** Claude (Anthropic), GPT (OpenAI), Llama, Voyage AI
 
 ## Open to work
