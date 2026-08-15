@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/hero.svg" alt="James W. Niu, Sr. Staff AI/ML Engineer: multi-agent systems that ship, measured before believed; eight golden repos where every claim traces to an eval, a probe, or a logged run, failures published beside the wins" width="100%">
+</p>
+
 # James W. Niu
 
 **Sr. Staff AI/ML Engineer, 10+ years. I build multi-agent systems that ship, and I measure them before I believe them.**

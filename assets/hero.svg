@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="James W. Niu, Sr. Staff AI/ML Engineer: multi-agent systems that ship, measured before believed; eight golden repos where every claim traces to an eval, a probe, or a logged run, failures published beside the wins" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
+<defs>
+  <linearGradient id="bgj" x1="0" y1="0" x2="0.75" y2="1">
+    <stop offset="0" stop-color="#12161c"/><stop offset="0.55" stop-color="#0c1013"/><stop offset="1" stop-color="#080a0d"/>
+  </linearGradient>
+  <pattern id="dotj" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" fill="#161d26"/></pattern>
+  <linearGradient id="ndj" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#19212b"/><stop offset="1" stop-color="#111820"/>
+  </linearGradient>
+  <linearGradient id="rlj" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#3987e5" stop-opacity="0.95"/><stop offset="1" stop-color="#3987e5" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="900" height="340" fill="url(#bgj)"/>
+<rect x="0" y="0" width="900" height="340" fill="url(#dotj)"/>
+<text x="40" y="46" fill="#3987e5" font-size="14" font-weight="700" letter-spacing="3.2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">SR. STAFF AI/ML ENGINEER / 10+ YEARS</text>
+<text x="40" y="102" fill="#f3f6f9" font-size="35" font-weight="700">Built work,</text>
+<text x="40" y="146" fill="#f3f6f9" font-size="35" font-weight="700">with receipts.</text>
+<rect x="40" y="168" width="150" height="2.5" fill="url(#rlj)"/>
+<text x="40" y="200" fill="#9aa5b1" font-size="16">Multi-agent systems that ship, measured before believed.</text>
+<text x="40" y="224" fill="#9aa5b1" font-size="16">Human judgment captured as labels, compiled into</text>
+<text x="40" y="248" fill="#9aa5b1" font-size="16">thresholds, wired into gates that can refuse to spend.</text>
+<rect x="40" y="278" width="84" height="28" fill="url(#ndj)" stroke="#3a4552" stroke-width="1.2" rx="3"/>
+<text x="82.0" y="297" fill="#9aa5b1" font-size="15" text-anchor="middle" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">build</text>
+<rect x="136" y="278" width="108" height="28" fill="url(#ndj)" stroke="#3a4552" stroke-width="1.2" rx="3"/>
+<text x="190.0" y="297" fill="#9aa5b1" font-size="15" text-anchor="middle" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">measure</text>
+<rect x="256" y="278" width="76" height="28" fill="url(#ndj)" stroke="#3a4552" stroke-width="1.2" rx="3"/>
+<text x="294.0" y="297" fill="#9aa5b1" font-size="15" text-anchor="middle" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">gate</text>
+<rect x="344" y="278" width="72" height="28" fill="#141d27" stroke="#8f9aa6" stroke-width="1.8" rx="3"/>
+<text x="380.0" y="297" fill="#f3f6f9" font-size="15" text-anchor="middle" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">ship</text>
+<rect x="500" y="52" width="364" height="254" fill="#0a0e12" stroke="#212b36" stroke-width="1.2" rx="4"/>
+<text x="518" y="80" fill="#7d8896" font-size="13" text-anchor="start" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">THE PORTFOLIO, COUNTED</text>
+<text x="518" y="116" fill="#6fa8ec" font-size="18" text-anchor="start" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">8</text>
+<text x="566" y="116" fill="#9aa5b1" font-size="13" text-anchor="start" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">golden repos, every claim traced</text>
+<text x="518" y="154" fill="#199e70" font-size="18" text-anchor="start" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">2</text>
+<text x="566" y="154" fill="#9aa5b1" font-size="13" text-anchor="start" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">failures published beside the wins</text>
+<text x="518" y="192" fill="#199e70" font-size="18" text-anchor="start" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">3</text>
+<text x="566" y="192" fill="#9aa5b1" font-size="13" text-anchor="start" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">principles earned by being wrong</text>
+<text x="518" y="230" fill="#199e70" font-size="18" text-anchor="start" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0</text>
+<text x="566" y="230" fill="#9aa5b1" font-size="13" text-anchor="start" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">claims without an eval, probe, or log</text>
+<text x="518" y="268" fill="#199e70" font-size="18" text-anchor="start" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1</text>
+<text x="566" y="268" fill="#9aa5b1" font-size="13" text-anchor="start" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">command re-derives the featured gates</text>
+</svg>
