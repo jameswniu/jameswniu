@@ -75,18 +75,14 @@ writes its byte size.
 
 ## Skills
 
-- **Languages:** Python, TypeScript, Go, SQL, Bash, JavaScript
-- **LLMs & agents:** Multi-agent systems, agentic AI, LLM orchestration, LangGraph, Model Context Protocol (MCP), MCP servers, agent-to-agent (A2A), tool design and function calling, retrieval-augmented generation (RAG), prompt engineering
-- **LLM evaluation & guardrails:** LLM evaluation, LLM-as-a-judge, eval-gated CI, guardrails, ablation studies, golden-dataset benchmarks, regression testing, determinism checks, load testing, self-consistency, chain-of-thought, statistical analysis (Wilson confidence intervals), reproducibility
-- **Natural language processing:** NLP, structured extraction, text classification, text clustering, semantic matching, thematic analysis, qualitative coding, abstention
-- **Information retrieval & search:** Information retrieval (IR), vector search, semantic search, embeddings, reranking, approximate nearest neighbor (ANN) search, vector databases (Turbopuffer, FAISS), relevance engineering
-- **Voice & speech:** Conversational AI, voice AI, real-time speech-to-speech, automatic speech recognition (ASR), text-to-speech (TTS), turn-taking, voice cloning, Twilio, PSTN, WebSocket, ElevenLabs
-- **Reinforcement learning & robotics:** Reinforcement learning (RL), multi-agent RL (MARL), Proximal Policy Optimization (PPO), PyTorch, multi-agent path finding (MAPF), path planning, swarm robotics, UAV and drones, Gymnasium
-- **Computer vision & generative media:** Computer vision, multimodal AI, monocular depth estimation, background matting, light-field 3D, text-to-video, video generation, generative AI
-- **MLOps & platform:** MLOps, FastAPI, Docker, Kubernetes, Helm, CI/CD, GitHub Actions, Cloudflare Workers, Prometheus and Grafana, observability, pytest
-- **Security & integrations:** OAuth 2.1, Auth0, JWT, audit logging, Atlassian (Bitbucket, Jira, Confluence), WhatsApp, REST and webhook APIs
-- **Data & privacy:** PII redaction, prompt-injection defense, synthetic data, data privacy, AI safety, reproducible research
-- **Models & APIs:** Claude (Anthropic), GPT (OpenAI), GPT-4o-mini, Llama, Ollama, Voyage AI, ElevenLabs, sentence-transformers
+- **Languages:** Python, TypeScript, Go, SQL
+- **LLMs & agents:** Multi-agent systems, agentic AI, LangGraph, Model Context Protocol (MCP), RAG, prompt engineering
+- **Evaluation & guardrails:** LLM-as-a-judge, eval-gated CI, guardrails, ablation studies
+- **NLP & retrieval:** Structured extraction, thematic analysis, semantic search, embeddings, reranking
+- **Voice & speech:** Conversational AI, voice AI, ASR, TTS, Twilio
+- **Machine learning:** Reinforcement learning, multi-agent RL, PPO, PyTorch, computer vision, generative AI
+- **MLOps & platform:** MLOps, FastAPI, Docker, Kubernetes, CI/CD, observability
+- **Models & APIs:** Claude (Anthropic), GPT (OpenAI), Llama, Voyage AI
 
 ## Open to work
 
