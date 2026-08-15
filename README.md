@@ -76,14 +76,15 @@ writes its byte size.
 ## Skills
 
 - **Languages:** Python, TypeScript, JavaScript, Go, SQL, Bash
-- **Full-stack & web:** React, Vite, Node.js, REST APIs, WebSockets, responsive UIs
+- **Full-stack & web:** React, Vite, Node.js, HTML/CSS, responsive UIs
+- **APIs, RPC & streaming:** FastAPI, REST, gRPC, JSON-RPC, WebSockets, Server-Sent Events (SSE), streaming, webhooks
 - **LLMs & agents:** Multi-agent systems, agentic AI, LangGraph, Model Context Protocol (MCP), RAG, tool design, prompt engineering
 - **Evaluation & guardrails:** LLM-as-a-judge, eval-gated CI, guardrails, ablation studies, statistical analysis
 - **NLP & retrieval:** Structured extraction, thematic analysis, semantic search, embeddings, reranking, relevance engineering
 - **Voice & speech:** Conversational AI, voice AI, ASR, TTS, Twilio, PSTN
 - **Machine learning:** Reinforcement learning, multi-agent RL, PPO, PyTorch, computer vision, generative AI
-- **MLOps & platform:** MLOps, FastAPI, Docker, Kubernetes, CI/CD, observability
-- **Models & APIs:** Claude (Anthropic), GPT (OpenAI), Llama, Voyage AI
+- **Infra & MLOps:** MLOps, Docker, Kubernetes, Helm, CI/CD, observability
+- **Models:** Claude (Anthropic), GPT (OpenAI), Llama, Voyage AI
 
 ## Open to work
 
