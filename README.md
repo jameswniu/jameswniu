@@ -77,18 +77,18 @@ writes its byte size.
 
 ## Skills
 
-- **Languages:** Python, Go, JavaScript, SQL, Bash
-- **Full-stack & web:** HTML/CSS, JavaScript, interactive web explorers, self-hosted HTTP APIs
-- **APIs, RPC & streaming:** FastAPI, REST, gRPC, WebSockets, streaming audio, webhooks
-- **LLMs & agents:** Multi-agent systems in production, agentic AI, Model Context Protocol (MCP), tool design, prompt engineering, agent daemons with gated mutations
-- **Search, retrieval & RAG:** RAG, vector search, semantic search, embeddings, reranking, approximate nearest neighbor (ANN), vector databases (Turbopuffer, FAISS), relevance engineering
+- **Languages:** Python, TypeScript, JavaScript, Go, SQL, Bash
+- **Full-stack & web:** React, Vite, Node.js, HTML/CSS, responsive UIs, interactive web explorers
+- **APIs, RPC & streaming:** FastAPI, REST, gRPC, JSON-RPC, WebSockets, Server-Sent Events (SSE), streaming, webhooks
+- **LLMs & agents:** Multi-agent systems in production, agentic AI, LangGraph, LangChain, Model Context Protocol (MCP), tool design, prompt engineering
+- **Search, retrieval & RAG:** RAG, vector search, semantic search, hybrid search, embeddings, reranking, approximate nearest neighbor (ANN), vector databases (Turbopuffer, FAISS), relevance engineering
 - **NLP:** Structured extraction, thematic analysis, text classification, semantic matching, qualitative coding
-- **Evaluation & guardrails:** Multimodal evals, process, outcome and vibe eval tiers, LLM-as-a-judge calibrated against labelled scenes, golden datasets, eval-derived thresholds checked in CI, eval-gated CI, guardrails, A/B creative testing, ablation studies, statistical analysis (Wilson CI)
-- **Observability & tracing:** Prometheus, Grafana, metrics, audit logging, append-only ledgers as run traces
+- **Evaluation & guardrails:** Multimodal evals, process, outcome and vibe evals, LLM-as-a-judge calibrated against labelled scenes, golden datasets, eval-derived thresholds checked in CI, eval-gated CI, guardrails, A/B creative testing, ablation studies, statistical analysis (Wilson CI)
+- **Observability & tracing:** Prometheus, Grafana, Langfuse, LangSmith, distributed tracing, structured logging, metrics, alerting, audit logging, append-only ledgers as run traces
 - **Voice & speech:** Conversational AI, voice AI, ASR, TTS, turn detection, voice cloning (ElevenLabs), Twilio, PSTN
 - **Video & creative AI:** Text-to-video and video generation (Wan, Seedance, HeyGen, Omni Flash), avatar video (HeyGen), ffmpeg, ad tech, creative testing
 - **Machine learning:** Reinforcement learning, multi-agent RL, PPO, PyTorch, computer vision (OpenCV, MediaPipe face landmarks, CNNs, ONNX int8), generative AI
-- **Infra & MLOps:** MLOps, Docker, Kubernetes, Helm, CI/CD (GitHub Actions), Azure deployment
+- **Infra & MLOps:** MLOps, Docker, Kubernetes, Helm, CI/CD (GitHub Actions), cloud deployment (AWS, Azure)
 - **Models:** Claude (Anthropic), GPT (OpenAI), Llama, Voyage AI
 
 ## Open to work
