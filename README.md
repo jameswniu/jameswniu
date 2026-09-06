@@ -13,29 +13,31 @@ to spend.
 
 | if you want | go to |
 | --- | --- |
-| one project, read deeply | [the featured pipeline](#featured-ai-filmmaking-governed-by-multimodal-evals) |
+| one project, read deeply | [the featured harness](#featured-three-tier-evals-for-agentic-ai-video-ads) |
 | range across problems | [the table of six](#six-more-production-ai-on-real-problems) |
 | how I work | [principles I work by](#principles-i-work-by) |
 
-## Featured: AI filmmaking governed by multimodal evals
+## Featured: three-tier evals for agentic AI video ads
 
-**[3d-filmmaking-ads-multimodal-evals](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals)**
+**[ad-creative-pipeline-multimodal-evals](https://github.com/jameswniu/ad-creative-pipeline-multimodal-evals)**
 
-`13 probes` · `16 of 16 gating thresholds derived from labelled exemplars` · `4 guards, 3 of which fail open and say so` · `1 credit per scheduled render` · `77 views per frame`
+`13 probes` · `16 of 16 gating thresholds derived from labelled exemplars` · `4 guards, 3 of which fail open and say so` · `28 governed ad versions across 4 engines` · `10 spec ads for real products`
 
-An AI filmmaking pipeline for advertising-grade avatar video: multimodal evals govern a
-cloned voice, a consistent generated character, and light-field 3D output. Taste is
-captured as labels, compiled into thresholds, and enforced by gates that block bad output
-before it spends money.
+An evaluation harness for AI-generated video ads, split the way the question splits.
+Process evals check that every pipeline step ran and its gate fired before money moved.
+Outcome evals check that every claim on screen matches the company's own live page. Vibe
+evals score taste against a golden set of hand-labelled exemplars, re-derived for each
+audience. Four engines ran the same five briefs, a panel per audience picked a different
+winner, and that is a router built from evals.
 
-It runs on a schedule, against metered vendor APIs, with nobody awake. That is the design
-constraint: an unattended pipeline cannot be corrected mid flight, so every gate fires before
-the credit is spent, and anything short of a clean success pages loudly instead of passing
-quietly.
+It ran end to end with nobody driving, against metered video engines. That is the design
+constraint: an unattended loop cannot be corrected mid flight, so every gate fires before the
+credit is spent, and anything short of a clean success is withdrawn, replaced, and written
+into the ledger with its reason.
 
-**The repo publishes the measurements that falsified my own claims**, including two failures
-the shipped render still does not pass, and a speedup whose number held while the explanation
-I wrote for it turned out to be wrong.
+**The repo publishes the measurements that falsified my own claims**, including ten scoring
+models killed in one day for disagreeing with the labels, and a lip-sync probe that shipped
+with its sign inverted and doubled the error it was built to remove.
 
 ## Six more: Production AI on real problems
 
@@ -99,12 +101,12 @@ Role titles I map to: Staff AI Engineer, Principal AI Engineer, Applied AI Engin
 no GPU. Needs `python3` and `ffmpeg`:
 
 ```
-git clone https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals
-cd 3d-filmmaking-ads-multimodal-evals && pip install -r requirements.txt
+git clone https://github.com/jameswniu/ad-creative-pipeline-multimodal-evals
+cd ad-creative-pipeline-multimodal-evals && pip install -r requirements.txt
 python3 evals/derive.py
 ```
 
-It prints every gating threshold in that pipeline beside the labelled pass and the labelled
+It prints every gating threshold in that harness beside the labelled pass and the labelled
 reject that bracket it, recomputes the shipped exemplars rather than reciting them, and exits
 nonzero if any constant has drifted outside its own evidence.
 
