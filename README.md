@@ -17,23 +17,23 @@ to spend.
 | range across problems | [the table of six](#six-more-production-ai-on-real-problems) |
 | how I work | [principles I work by](#principles-i-work-by) |
 
-## Featured: three-tier evals for agentic AI video ads
+## Featured: three-tier evals for a multi-agent video ad pipeline
 
 **[ad-creative-pipeline-multimodal-evals](https://github.com/jameswniu/ad-creative-pipeline-multimodal-evals)**
 
-`13 probes` · `16 of 16 gating thresholds derived from labelled exemplars` · `4 guards, 3 of which fail open and say so` · `28 governed ad versions across 4 engines` · `10 spec ads for real products`
+`7 steps, 4 guards, 10 probes` · `10 of 10 named gating thresholds derived from labelled exemplars` · `48 exemplars graded by hand, 42 calibration scenes` · `28 ad versions across 4 engines` · `10 spec ads for real products`
 
-An evaluation harness for AI-generated video ads, split the way the question splits.
-Process evals check that every pipeline step ran and its gate fired before money moved.
-Outcome evals check that every claim on screen matches the company's own live page. Vibe
-evals score taste against a golden set of hand-labelled exemplars, re-derived for each
-audience. Four engines ran the same five briefs, a panel per audience picked a different
-winner, and that is a router built from evals.
+The public release of a production eval harness for a multi-agent video ad pipeline, split
+the way the question splits. Process evals check that every pipeline step ran and its gate
+fired before money moved. Outcome evals check that every claim on screen matches the
+product's own live page. Vibe evals score taste against a golden set of hand-graded
+exemplars, re-derived for each audience. Four engines shot the same five briefs, no one
+engine won them all, and that is a router built from evals.
 
-It ran end to end with nobody driving, against metered video engines. That is the design
-constraint: an unattended loop cannot be corrected mid flight, so every gate fires before the
-credit is spent, and anything short of a clean success is withdrawn, replaced, and written
-into the ledger with its reason.
+A multi-agent system I run in production shot thirty-eight ads with nobody watching, against
+metered video engines. That is the design constraint: an unattended loop cannot be corrected
+mid flight, so every gate fires before the credit is spent, and anything short of a clean
+success is withdrawn, replaced, and written into the append-only ledger with its reason.
 
 **The repo publishes the measurements that falsified my own claims**, including ten scoring
 models killed in one day for disagreeing with the labels, and a lip-sync probe that shipped
@@ -77,17 +77,18 @@ writes its byte size.
 
 ## Skills
 
-- **Languages:** Python, TypeScript, JavaScript, Go, SQL, Bash
-- **Full-stack & web:** React, Vite, Node.js, HTML/CSS, responsive UIs
-- **APIs, RPC & streaming:** FastAPI, REST, gRPC, JSON-RPC, WebSockets, Server-Sent Events (SSE), streaming, webhooks
-- **LLMs & agents:** Multi-agent systems, agentic AI, LangGraph, LangChain, Model Context Protocol (MCP), tool design, prompt engineering
-- **Search, retrieval & RAG:** RAG, vector search, semantic search, hybrid search, embeddings, reranking, approximate nearest neighbor (ANN), vector databases (Turbopuffer, FAISS), relevance engineering
+- **Languages:** Python, Go, JavaScript, SQL, Bash
+- **Full-stack & web:** HTML/CSS, JavaScript, interactive web explorers, self-hosted HTTP APIs
+- **APIs, RPC & streaming:** FastAPI, REST, gRPC, WebSockets, streaming audio, webhooks
+- **LLMs & agents:** Multi-agent systems in production, agentic AI, Model Context Protocol (MCP), tool design, prompt engineering, agent daemons with gated mutations
+- **Search, retrieval & RAG:** RAG, vector search, semantic search, embeddings, reranking, approximate nearest neighbor (ANN), vector databases (Turbopuffer, FAISS), relevance engineering
 - **NLP:** Structured extraction, thematic analysis, text classification, semantic matching, qualitative coding
-- **Evaluation & guardrails:** LLM-as-a-judge, eval-gated CI, guardrails, ablation studies, statistical analysis
-- **Observability & tracing:** Prometheus, Grafana, Langfuse, LangSmith, distributed tracing, structured logging, metrics, alerting
-- **Voice & speech:** Conversational AI, voice AI, ASR, TTS, Twilio, PSTN
-- **Machine learning:** Reinforcement learning, multi-agent RL, PPO, PyTorch, computer vision, generative AI
-- **Infra & MLOps:** MLOps, Docker, Kubernetes, Helm, CI/CD, cloud deployment
+- **Evaluation & guardrails:** Multimodal evals, process, outcome and vibe eval tiers, LLM-as-a-judge calibrated against labelled scenes, golden datasets, eval-derived thresholds checked in CI, eval-gated CI, guardrails, A/B creative testing, ablation studies, statistical analysis (Wilson CI)
+- **Observability & tracing:** Prometheus, Grafana, metrics, audit logging, append-only ledgers as run traces
+- **Voice & speech:** Conversational AI, voice AI, ASR, TTS, turn detection, voice cloning (ElevenLabs), Twilio, PSTN
+- **Video & creative AI:** Text-to-video and video generation (Wan, Seedance, HeyGen, Omni Flash), avatar video (HeyGen), ffmpeg, ad tech, creative testing
+- **Machine learning:** Reinforcement learning, multi-agent RL, PPO, PyTorch, computer vision (OpenCV, MediaPipe face landmarks, CNNs, ONNX int8), generative AI
+- **Infra & MLOps:** MLOps, Docker, Kubernetes, Helm, CI/CD (GitHub Actions), Azure deployment
 - **Models:** Claude (Anthropic), GPT (OpenAI), Llama, Voyage AI
 
 ## Open to work
