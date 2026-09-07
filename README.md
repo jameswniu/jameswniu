@@ -48,7 +48,7 @@ Ranked by priority, one per repository, nothing listed twice.
 
 ## Two things I learned by being wrong
 
-1. **[Passing tests say nothing about what you never thought to test.](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals/blob/main/docs/NOT-MEASURED.md)** Eleven checks passed while the presenter's dark top vanished into a black background and a floating head shipped, because nobody had written that question down. Now every suite I build carries a written list of what it does not measure.
+1. **Passing tests say nothing about what you never thought to test.** Every check passed while the presenter's dark top vanished into a black background and a floating head shipped, because nobody had written that question down. Now every suite I build carries [a written list of what it does not measure](https://github.com/jameswniu/ad-creative-pipeline-multimodal-evals#where-the-claims-stop).
 2. **A success message is not a result.** Every agent reported success while the files it handed over were empty, because each one looked for the others at an address that only works on one machine. Now every handoff verifies the address and every file reports its size, so an empty one cannot pass as done.
 
 ## Principles I work by
