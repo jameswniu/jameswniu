@@ -46,8 +46,8 @@ Ranked by priority, one per repository, nothing listed twice.
 
 ## Two things I learned by being wrong
 
-1. **[A suite only covers what someone thought to measure.](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals/blob/main/docs/NOT-MEASURED.md)** Eleven probes scored the face, the motion and the timing, and none asked whether the subject was visible against the background. A dark top on a black matte cleared it by 22 luma where the face cleared by 134, so the render shipped a floating head with every probe green.
-2. **Three green checkmarks over two empty files.** Every step reported success while both artifacts persisted empty, because the agent cards advertised localhost, right on one machine and wrong across a container network. The client now rebases the address and logs that it did, and every artifact writes its byte size.
+1. **[A test suite only catches what someone thought to test.](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals/blob/main/docs/NOT-MEASURED.md)** Eleven checks passed on a render where the presenter's dark top vanished into the black background, and a floating head shipped. Nobody had written down the question, can you see her against the background, so nothing asked it. That check exists now.
+2. **Three green checkmarks over two empty files.** Every agent in the system reported success while the files it was meant to hand over were empty, because each one looked for the others at an address that only works on one machine. Now every handoff checks the address it was given, and every file reports its own size, so an empty one cannot pass as done.
 
 ## Principles I work by
 
