@@ -29,7 +29,9 @@ The public release of a production eval harness for a multi-agent video ad pipel
 - Outcome evals check that every claim on screen matches the product's own live page.
 - Quality evals score taste against a hand-graded golden set, re-derived for each audience.
 
-The evals also choose the engine. Four engines shot the same five briefs, no single engine won them all, and the winners table is what sends each brief to the right one. And the repo shows my misses, not only the wins. Ten scoring models I built were thrown out in one day because they disagreed with the human labels. One lip-sync check shipped backwards and doubled the error it was meant to remove.
+**The evals choose the engine.** Four engines shot the same five briefs and no single engine won all five, so the winners table routes each brief to the right engine, the way Perplexity picks a model per question, here for video.
+
+**The evals also overruled me.** Ten scoring models I built were thrown out in one day for disagreeing with the human labels, and a lip-sync check that shipped backwards was caught doubling the error it was built to remove.
 
 ## Six more: Production AI on real problems
 
@@ -46,8 +48,8 @@ Ranked by priority, one per repository, nothing listed twice.
 
 ## Two things I learned by being wrong
 
-1. **[A test suite only catches what someone thought to test.](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals/blob/main/docs/NOT-MEASURED.md)** Eleven checks passed on a render where the presenter's dark top vanished into the black background, and a floating head shipped. Nobody had written down the question, can you see her against the background, so nothing asked it. That check exists now.
-2. **Three green checkmarks over two empty files.** Every agent in the system reported success while the files it was meant to hand over were empty, because each one looked for the others at an address that only works on one machine. Now every handoff checks the address it was given, and every file reports its own size, so an empty one cannot pass as done.
+1. **[Passing tests say nothing about what you never thought to test.](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals/blob/main/docs/NOT-MEASURED.md)** Eleven checks passed while the presenter's dark top vanished into a black background and a floating head shipped, because nobody had written that question down. Now every suite I build carries a written list of what it does not measure.
+2. **A success message is not a result.** Every agent reported success while the files it handed over were empty, because each one looked for the others at an address that only works on one machine. Now every handoff verifies the address and every file reports its size, so an empty one cannot pass as done.
 
 ## Principles I work by
 
