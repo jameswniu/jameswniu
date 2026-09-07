@@ -46,15 +46,8 @@ Ranked by priority, one per repository, nothing listed twice.
 
 ## Two things I learned by being wrong
 
-**[A suite only covers what someone thought to measure.](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals/blob/main/docs/NOT-MEASURED.md)**
-
-- Eleven probes scored the face, the motion and the timing in a rendered frame, and none asked whether the subject was visible against the background.
-- A dark top on a black matte separated by 22 levels of luma, the face by 134, so the torso dissolved, the render shipped a floating head, and every probe passed.
-
-**Three green checkmarks over two empty files.**
-
-- Every step reported success and both artifacts persisted empty, because the agent cards advertised localhost, right on one machine and wrong across a container network.
-- The client now rebases the address and logs that it did, and every artifact writes its byte size.
+1. **[A suite only covers what someone thought to measure.](https://github.com/jameswniu/3d-filmmaking-ads-multimodal-evals/blob/main/docs/NOT-MEASURED.md)** Eleven probes scored the face, the motion and the timing, and none asked whether the subject was visible against the background. A dark top on a black matte cleared it by 22 luma where the face cleared by 134, so the render shipped a floating head with every probe green.
+2. **Three green checkmarks over two empty files.** Every step reported success while both artifacts persisted empty, because the agent cards advertised localhost, right on one machine and wrong across a container network. The client now rebases the address and logs that it did, and every artifact writes its byte size.
 
 ## Principles I work by
 
