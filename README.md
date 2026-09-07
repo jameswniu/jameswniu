@@ -26,7 +26,7 @@ to spend.
 The public release of a production eval harness for a multi-agent video ad pipeline, split
 the way the question splits. Process evals check that every pipeline step ran and its gate
 fired before money moved. Outcome evals check that every claim on screen matches the
-product's own live page. Vibe evals score taste against a golden set of hand-graded
+product's own live page. Quality evals score taste against a golden set of hand-graded
 exemplars, re-derived for each audience. Four engines shot the same five briefs, no one
 engine won them all, and that is a router built from evals.
 
@@ -83,7 +83,7 @@ writes its byte size.
 - **LLMs & agents:** Multi-agent systems in production, agentic AI, LangGraph, LangChain, Model Context Protocol (MCP), tool design, prompt engineering
 - **Search, retrieval & RAG:** RAG, vector search, semantic search, hybrid search, embeddings, reranking, approximate nearest neighbor (ANN), vector databases (Turbopuffer, FAISS), relevance engineering
 - **NLP:** Structured extraction, thematic analysis, text classification, semantic matching, qualitative coding
-- **Evaluation & guardrails:** Multimodal evals, process, outcome and vibe evals, LLM-as-a-judge calibrated against labelled scenes, golden datasets, eval-derived thresholds checked in CI, eval-gated CI, guardrails, A/B creative testing, ablation studies, statistical analysis (Wilson CI)
+- **Evaluation & guardrails:** Multimodal evals, process, outcome and quality evals, LLM-as-a-judge calibrated against labelled scenes, golden datasets, eval-derived thresholds checked in CI, eval-gated CI, guardrails, A/B creative testing, ablation studies, statistical analysis (Wilson CI)
 - **Observability & tracing:** Prometheus, Grafana, Langfuse, LangSmith, distributed tracing, structured logging, metrics, alerting, audit logging, append-only ledgers as run traces
 - **Voice & speech:** Conversational AI, voice AI, ASR, TTS, turn detection, voice cloning (ElevenLabs), Twilio, PSTN
 - **Video & creative AI:** Text-to-video and video generation (Wan, Seedance, HeyGen, Omni Flash), avatar video (HeyGen), ffmpeg, ad tech, creative testing
