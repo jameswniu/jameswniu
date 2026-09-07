@@ -60,18 +60,18 @@ Ranked by priority, one per repository, nothing listed twice.
 
 ## Skills
 
-- **Languages:** Python, TypeScript, JavaScript, Go, SQL, Bash
-- **Full-stack & web:** React, Vite, Node.js, HTML/CSS, responsive UIs, interactive web explorers
-- **APIs, RPC & streaming:** FastAPI, REST, gRPC, JSON-RPC, WebSockets, Server-Sent Events (SSE), streaming, webhooks
-- **LLMs & agents:** Multi-agent systems in production, agentic AI, LangGraph, LangChain, Model Context Protocol (MCP), tool design, prompt engineering
-- **Search, retrieval & RAG:** RAG, vector search, semantic search, hybrid search, embeddings, reranking, approximate nearest neighbor (ANN), vector databases (Turbopuffer, FAISS), relevance engineering
-- **NLP:** Structured extraction, thematic analysis, text classification, semantic matching, qualitative coding
-- **Evaluation & guardrails:** Multimodal evals, process, outcome and quality evals, LLM-as-a-judge calibrated against labelled scenes, golden datasets, eval-derived thresholds checked in CI, guardrails, A/B creative testing, ablation studies, statistical analysis (Wilson CI)
-- **Observability & tracing:** Prometheus, Grafana, Langfuse, LangSmith, distributed tracing, structured logging, metrics, alerting, audit logging, append-only ledgers as run traces
-- **Voice & speech:** Conversational AI, voice AI, ASR, TTS, turn detection, voice cloning (ElevenLabs), Twilio, PSTN
-- **Video & creative AI:** Text-to-video and video generation (Wan, Seedance, HeyGen, Omni Flash), avatar video (HeyGen), ffmpeg, ad tech
-- **Machine learning:** Reinforcement learning, multi-agent RL, PPO, PyTorch, computer vision (OpenCV, MediaPipe face landmarks, CNNs, ONNX int8), generative AI
-- **Infra & MLOps:** MLOps, Docker, Kubernetes, Helm, CI/CD (GitHub Actions), cloud deployment (AWS, Azure)
+- **Languages:** Python, SQL, TypeScript, JavaScript, Go, Bash
+- **Full-stack & web:** React, Node.js, TypeScript, Vite, HTML/CSS, responsive web apps, streaming chat UIs
+- **APIs, RPC & streaming:** REST, FastAPI, gRPC, WebSockets, Server-Sent Events (SSE), streaming APIs, webhooks, OAuth 2.1
+- **LLMs & agents:** Agentic AI, multi-agent systems in production, LangGraph, LangChain, Model Context Protocol (MCP), tool and function calling, prompt and context engineering, OpenAI API, Anthropic Claude API
+- **Search, retrieval & RAG:** RAG, vector search, semantic and hybrid search, embeddings, reranking, approximate nearest neighbor (ANN), vector databases (FAISS, Turbopuffer), relevance engineering
+- **NLP:** Information extraction, text classification, semantic matching, thematic and qualitative analysis
+- **Evaluation & guardrails:** Evaluation engineering, LLM-as-a-judge, golden datasets, groundedness and hallucination evals, multimodal evals, process, outcome and quality evals, eval-gated CI, guardrails, output validation, prompt-injection testing, PII handling, A/B testing, ablation studies, statistical analysis
+- **Observability & tracing:** Langfuse, LangSmith, Datadog, Prometheus, Grafana, distributed tracing, structured logging, metrics and alerting, LLM observability
+- **Voice & speech:** Conversational AI, voice AI, ASR, TTS, turn detection, voice cloning (ElevenLabs), Twilio, PSTN telephony
+- **Video & creative AI:** Text-to-video and video generation, avatar video (HeyGen), ffmpeg, ad tech, creative testing
+- **Machine learning:** PyTorch, deep learning, fine-tuning (Hugging Face, DistilBERT), computer vision (OpenCV, MediaPipe, CNNs), reinforcement learning (multi-agent RL, PPO), ONNX int8 quantization, generative AI
+- **Infra & MLOps:** MLOps, LLMOps, Docker, Kubernetes, Helm, CI/CD (GitHub Actions, Harness), AWS (EKS), Azure, self-hosted LLM serving (Ollama), PostgreSQL, Snowflake
 - **Models:** Claude (Anthropic), GPT (OpenAI), Llama, Voyage AI
 
 ## Open to work
