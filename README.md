@@ -95,4 +95,4 @@ reject that bracket it, recomputes the shipped exemplars rather than reciting th
 nonzero if any constant has drifted outside its own evidence.
 
 Hiring, or want the walkthrough:
-[LinkedIn](https://www.linkedin.com/in/jameswnarch/) | [+1 (917) 355-7504](https://wa.me/19173557504)
+[LinkedIn](https://www.linkedin.com/in/jameswnarch/) | [jameswnarch@gmail.com](mailto:jameswnarch@gmail.com)
