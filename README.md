@@ -29,7 +29,7 @@ The public release of a production eval harness for a multi-agent video ad pipel
 - Outcome evals check that every claim on screen matches the product's own live page.
 - Quality evals score taste against a hand-graded golden set, re-derived for each audience.
 
-Four engines shot the same five briefs and no single engine won them all, so the winners table is a router built from evals. The repo also publishes what proved me wrong. Ten scoring models died in one day for disagreeing with the labels, and a lip-sync probe shipped with its sign inverted and doubled the error it was built to remove.
+Four engines shot the same five briefs. No engine won them all, which is why the winners table doubles as a router. The repo also keeps the receipts on me. I killed ten scoring models in one day because they disagreed with the labels, and I shipped a lip-sync probe with its sign flipped, so it doubled the error it was meant to remove.
 
 ## Six more: Production AI on real problems
 
