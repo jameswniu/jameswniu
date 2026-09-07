@@ -11,11 +11,11 @@ invisible to a type check, obvious to a person, and different again tomorrow. So
 human judgment as labels, compile it into thresholds, and wire it into gates that can refuse
 to spend.
 
-| if you want | go to |
+| If you want | Go to |
 | --- | --- |
-| one project, read deeply | [the featured harness](#featured-three-tier-evals-for-agentic-ai-video-ads) |
-| range across problems | [the table of six](#six-more-production-ai-on-real-problems) |
-| how I work | [principles I work by](#principles-i-work-by) |
+| One project, read deeply | [The featured harness](#featured-three-tier-evals-for-a-multi-agent-video-ad-pipeline) |
+| Range across problems | [The table of six](#six-more-production-ai-on-real-problems) |
+| How I work | [Principles I work by](#principles-i-work-by) |
 
 ## Featured: three-tier evals for a multi-agent video ad pipeline
 
@@ -23,21 +23,15 @@ to spend.
 
 `7 steps, 4 guards, 10 probes` · `10 of 10 named gating thresholds derived from labelled exemplars` · `48 exemplars graded by hand, 42 calibration scenes` · `28 ad versions across 4 engines` · `10 spec ads for real products`
 
-The public release of a production eval harness for a multi-agent video ad pipeline, split
-the way the question splits. Process evals check that every pipeline step ran and its gate
-fired before money moved. Outcome evals check that every claim on screen matches the
-product's own live page. Quality evals score taste against a golden set of hand-graded
-exemplars, re-derived for each audience. Four engines shot the same five briefs, no one
-engine won them all, and that is a router built from evals.
+The public release of a production eval harness for a multi-agent video ad pipeline. A multi-agent system I run in production shot thirty-eight ads with nobody watching, against metered video engines.
 
-A multi-agent system I run in production shot thirty-eight ads with nobody watching, against
-metered video engines. That is the design constraint: an unattended loop cannot be corrected
-mid flight, so every gate fires before the credit is spent, and anything short of a clean
-success is withdrawn, replaced, and written into the append-only ledger with its reason.
+- Process evals check that every pipeline step ran and its gate fired before money moved.
+- Outcome evals check that every claim on screen matches the product's own live page.
+- Quality evals score taste against a golden set of hand-graded exemplars, re-derived for each audience.
+- Four engines shot the same five briefs and no one engine won them all, which is a router built from evals.
+- Every gate fires before the credit is spent, because an unattended loop cannot be corrected mid flight. Anything short of a clean success is withdrawn, replaced, and written into the append-only ledger with its reason.
 
-**The repo publishes the measurements that falsified my own claims**, including ten scoring
-models killed in one day for disagreeing with the labels, and a lip-sync probe that shipped
-with its sign inverted and doubled the error it was built to remove.
+The repo publishes the measurements that falsified my own claims. Ten scoring models died in one day for disagreeing with the labels, and a lip-sync probe shipped with its sign inverted, doubling the error it was built to remove.
 
 ## Six more: Production AI on real problems
 
@@ -54,17 +48,17 @@ Ranked by priority, one per repository, nothing listed twice.
 
 ## Two things I learned by being wrong
 
-**A suite only covers what someone thought to measure.** Eleven probes scored the face, the
-motion and the timing in a rendered frame. None asked whether the subject was visible against
-the background. A dark top on a black matte separated by 22 levels of luma where the face
-separated by 134, so the torso dissolved and the render shipped a floating head. Every probe
-passed. The gap was not a bug in any of them; it was a question nobody had written down.
+**A suite only covers what someone thought to measure.**
 
-**Three green checkmarks over two empty files.** In a multi-agent system every step reported
-success and both artifacts persisted empty. The agent cards advertised localhost, correct on
-one machine and wrong across a container network, so discovery kept succeeding while delivery
-failed silently. The client now rebases the address and logs that it did, and every artifact
-writes its byte size.
+- Eleven probes scored the face, the motion and the timing in a rendered frame. None asked whether the subject was visible against the background.
+- A dark top on a black matte separated by 22 levels of luma, the face by 134, so the torso dissolved and the render shipped a floating head.
+- Every probe passed. The gap was not a bug in any of them. It was a question nobody had written down.
+
+**Three green checkmarks over two empty files.**
+
+- In a multi-agent system every step reported success and both artifacts persisted empty.
+- The agent cards advertised localhost, correct on one machine and wrong across a container network, so discovery kept succeeding while delivery failed silently.
+- The client now rebases the address and logs that it did, and every artifact writes its byte size.
 
 ## Principles I work by
 
