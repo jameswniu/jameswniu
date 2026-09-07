@@ -19,7 +19,7 @@ to spend.
 
 ## Featured: three-tier evals for a multi-agent video ad pipeline
 
-**[ad-creative-pipeline-multimodal-evals](https://github.com/jameswniu/ad-creative-pipeline-multimodal-evals)**
+**[autonomous-ads-pipeline-multimodal-evals](https://github.com/jameswniu/autonomous-ads-pipeline-multimodal-evals)**
 
 `7 steps, 4 guards, 10 probes` · `10 of 10 named gating thresholds derived from labelled exemplars` · `48 exemplars graded by hand, 42 calibration scenes` · `28 ad versions across 4 engines` · `10 spec ads for real products`
 
@@ -48,7 +48,7 @@ Ranked by priority, one per repository, nothing listed twice.
 
 ## Two things I learned by being wrong
 
-1. **Passing tests say nothing about what you never thought to test.** Every check passed while the presenter's dark top vanished into a black background and a floating head shipped, because nobody had written that question down. Now every suite I build carries [a written list of what it does not measure](https://github.com/jameswniu/ad-creative-pipeline-multimodal-evals#where-the-claims-stop).
+1. **Passing tests say nothing about what you never thought to test.** Every check passed while the presenter's dark top vanished into a black background and a floating head shipped, because nobody had written that question down. Now every suite I build carries [a written list of what it does not measure](https://github.com/jameswniu/autonomous-ads-pipeline-multimodal-evals#where-the-claims-stop).
 2. **A success message is not a result.** Every agent reported success while the files it handed over were empty, because each one looked for the others at an address that only works on one machine. Now every handoff verifies the address and every file reports its size, so an empty one cannot pass as done.
 
 ## Principles I work by
@@ -87,8 +87,8 @@ Role titles I map to: Staff AI Engineer, Principal AI Engineer, Applied AI Engin
 no GPU. Needs `python3` and `ffmpeg`:
 
 ```
-git clone https://github.com/jameswniu/ad-creative-pipeline-multimodal-evals
-cd ad-creative-pipeline-multimodal-evals && pip install -r requirements.txt
+git clone https://github.com/jameswniu/autonomous-ads-pipeline-multimodal-evals
+cd autonomous-ads-pipeline-multimodal-evals && pip install -r requirements.txt
 python3 evals/derive.py
 ```
 
