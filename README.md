@@ -13,11 +13,11 @@ to spend.
 
 | If you want | Go to |
 | --- | --- |
-| One project, read deeply | [The featured harness](#featured-three-hard-problems-in-ai-video-solved-in-one-loop) |
+| One project, read deeply | [The featured harness](#featured-three-hard-problems-in-ai-multimodal-pipelines-solved-in-one-loop) |
 | Range across problems | [The table of six](#six-more-production-ai-on-real-problems) |
 | How I work | [Principles I work by](#principles-i-work-by) |
 
-## Featured: Three hard problems in AI video (Solved in one loop)
+## Featured: Three hard problems in AI multimodal pipelines (Solved in one loop)
 
 **[autonomous-ads-pipeline-multimodal-evals](https://github.com/jameswniu/autonomous-ads-pipeline-multimodal-evals)**
 
