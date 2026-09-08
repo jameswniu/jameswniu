@@ -17,7 +17,7 @@ to spend.
 | Range across problems | [The table of six](#six-more-production-ai-on-real-problems) |
 | How I work | [Principles I work by](#principles-i-work-by) |
 
-## Featured: three hard problems in AI video, solved in one loop
+## Featured: Three hard problems in AI video. Solved in one loop
 
 **[autonomous-ads-pipeline-multimodal-evals](https://github.com/jameswniu/autonomous-ads-pipeline-multimodal-evals)**
 
