@@ -13,25 +13,26 @@ to spend.
 
 | If you want | Go to |
 | --- | --- |
-| One project, read deeply | [The featured harness](#featured-three-tier-evals-for-a-multi-agent-video-ad-pipeline) |
+| One project, read deeply | [The featured harness](#featured-three-hard-problems-in-ai-video-solved-in-one-loop) |
 | Range across problems | [The table of six](#six-more-production-ai-on-real-problems) |
 | How I work | [Principles I work by](#principles-i-work-by) |
 
-## Featured: three-tier evals for a multi-agent video ad pipeline
+## Featured: three hard problems in AI video, solved in one loop
 
 **[autonomous-ads-pipeline-multimodal-evals](https://github.com/jameswniu/autonomous-ads-pipeline-multimodal-evals)**
 
 `7 steps, 4 guards, 10 probes` · `10 of 10 named gating thresholds derived from labelled exemplars` · `48 exemplars graded by hand, 42 calibration scenes` · `28 ad versions across 4 engines` · `10 spec ads for real products`
 
-The public release of a production eval harness for a multi-agent video ad pipeline. A multi-agent system I run in production shot thirty-eight ads with nobody watching, against metered video engines, and it could only spend when its own checks said yes.
+Three problems the field has not settled, and one loop that does all three. A multi-agent system I run in production shot thirty-eight ads with nobody watching, against metered video engines, and it could only spend when its own checks said yes.
 
-- Process evals check that every step ran and its gate fired before money moved.
-- Outcome evals check that every claim on screen matches the product's own live page.
-- Quality evals score taste against a hand-graded golden set, re-derived for each audience.
+1. It shoots with no director. Boards, prompts, engine calls, re-rolls and delivery ran unattended, and every request landed in an append-only ledger.
+2. It grades pixels, audio and timing instead of text, against 48 exemplars I labelled by hand. The grading splits three ways.
+   - Process evals check that every step ran and its gate fired before money moved.
+   - Outcome evals check that every claim on screen matches the product's own live page.
+   - Quality evals score taste against the golden set, re-derived for each audience.
+3. It routes each brief to the engine that wins that audience. Four engines shot the same five briefs and no single engine won all five, so the winners table picks per brief, the way Perplexity picks a model per question, here for video.
 
-**The evals choose the engine.** Four engines shot the same five briefs and no single engine won all five, so the winners table routes each brief to the right engine, the way Perplexity picks a model per question, here for video.
-
-**The evals also overruled me.** Ten scoring models I built were thrown out in one day for disagreeing with the human labels, and a lip-sync check that shipped backwards was caught doubling the error it was built to remove.
+The evals overruled me, too. Ten scoring models I built were thrown out in one day for disagreeing with the human labels, and a lip-sync check that shipped backwards was caught doubling the error it was built to remove.
 
 ## Six more: Production AI on real problems
 
