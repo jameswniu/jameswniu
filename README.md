@@ -2,6 +2,8 @@
 
 **Sr. Staff AI/ML Engineer, 10+ years. I build multi-agent systems that ship, and I measure them before I believe them.**
 
+**Portfolio: [jameswniu.com](https://jameswniu.com/?utm_source=github&utm_medium=profile)**
+
 **Built work, with receipts.** Every project below runs, and every claim traces to an eval,
 a probe, or a logged run. The receipts that proved me wrong are here too.
 
